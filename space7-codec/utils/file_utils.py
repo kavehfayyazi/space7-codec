@@ -1,7 +1,7 @@
 import os
 
 def get_file_path(file_name):
-    return os.path.join(os.getcwd(), 'myfile', file_name)
+    return os.path.join(os.getcwd(), file_name)
 
 def get_string_from_file(file_name):
     try:
